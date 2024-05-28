@@ -110,7 +110,7 @@ openssl = { workspace = true, features = ["v102", "v110"], optional = true }
 quinn = { workspace = true, optional = true, features = [
     "log",
     "runtime-tokio",
-    "tls-rustls",
+    "rustls",
 ] }
 rand.workspace = true
 ring = { workspace = true, optional = true, features = ["std"] }
